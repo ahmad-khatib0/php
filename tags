@@ -1,0 +1,38 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/opt/lampp/htdocs/php/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/096dc1c1/
+0	databases/nodemon.json	/^  "ignore": [".git", ".idea"],$/;"	s	array:ignore
+1	databases/nodemon.json	/^  "ignore": [".git", ".idea"],$/;"	s	array:ignore
+Document	basics/name.html	/^    <title>Document<\/title>$/;"	j
+addToEndOfAnArray	basics/index.php	/^$addToEndOfAnArray = ['1', 2, 'three'];$/;"	v
+affectedRows	databases/index.php	/^  $affectedRows = $pdo->exec($update);$/;"	v
+count	basics/templates.php	/^for ($count = 1; $count <= 10; $count++) {$/;"	v
+counter	basics/index.php	/^$counter = 0;$/;"	v
+execMap	databases/nodemon.json	/^  "execMap": {$/;"	o
+ext	databases/nodemon.json	/^  "ext": "php"$/;"	s
+firstName	basics/public/index.php	/^    $firstName = $_POST['firstname'];$/;"	v
+firstname	basics/name.html	/^      <input type="text" name="firstname" id="firstname" \/>$/;"	I
+ignore	databases/nodemon.json	/^  "ignore": [".git", ".idea"],$/;"	a
+lastName	basics/name.php	/^$lastName = $_GET['lastname'];$/;"	v
+lastName	basics/public/index.php	/^    $lastName = $_POST['lastname'];$/;"	v
+lastname	basics/name.html	/^      <input type="text" name="lastname" id="lastname" \/>$/;"	I
+name	basics/name.php	/^$name = $_GET['firstname'];$/;"	v
+output	basics/public/index.php	/^        $output = "Welcome , oh glorious leader !";$/;"	v
+output	basics/public/index.php	/^        $output = "Welcome to out website " .$/;"	v
+output	basics/templates.php	/^$output = "";$/;"	v
+output	databases/index.php	/^  $output  = "updated $affectedRows  rows";$/;"	v
+output	databases/index.php	/^  $output = "unable to connect to database " . $e->getMessage() . "error occured in: " . $e->get/;"	v
+pdo	databases/index.php	/^  $pdo = new PDO("mysql:host=localhost;dbname=jokes;charset=utf8", "root", "");$/;"	v
+php	databases/nodemon.json	/^    "php": "php"$/;"	s	object:execMap
+restartable	databases/nodemon.json	/^  "restartable": "r",$/;"	s
+roll	basics/index.php	/^    $roll = rand(1, 6);$/;"	v
+update	databases/index.php	/^  $update = 'UPDATE joke SET jokedate ="2000-10-10" WHERE joketext LIKE "%what%"';$/;"	v
+verbose	databases/nodemon.json	/^  "verbose": false,$/;"	b

@@ -1,0 +1,5 @@
+php_flag display_errors on
+
+<Files ~ "databases/templates/.php$">
+  Allow from all
+</Files>
