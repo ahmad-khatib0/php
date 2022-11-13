@@ -1,1 +1,0 @@
-<footer> &copy; IJDB 2017 </footer>

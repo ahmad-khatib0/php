@@ -1,0 +1,35 @@
+SELECT `joke`.`id`, LEFT(`joketext`, 20)   .....
+this LEFT will select only 20 chars from joketext column 
+
+multicolumn primary key
+CREATE TABLE `jokecategory` (
+`jokeid`     INT NOT NULL, 
+`categoryid` INT NOT NULL,
+ PRIMARY KEY (`jokeid`, `categoryid`)
+) 
+This enforces the uniqueness that’s appropriate to a lookup table, preventing a
+particular joke from being assigned to a specific category more than once
+
+server-side includes (SSIs).
+let you put commonly used snippets of HTML (and JavaScript, and
+CSS) into include files that you can then use in multiple pages
+
+include_once and require_once are also useful for loading function libraries
+also a task that only needs to be done once, like connecting to the database.
+
+visiting http://192.168.10.10/index.php?list.
+This is called a single entry point or front controller.
+
+Because the DatabaseTable class is inside the Ninja prefix, without the backslash prefix PHP will 
+to load the class \Ninja\PDO rather than the inbuilt PHP class PDO.
+The PDO class is in something called the global namespace—that is, a class that
+exists at the very top level, effectively not inside a namespace. To reference a
+class in the global namespace, we must prefix it with a backslash
+
+"autoload": {
+      "psr-4": {
+      "Ninja\\": "classes/Ninja",
+      "Ijdb\\": "classes/Ijdb"
+   }
+}
+this inside composer to resolve these namespaces correctly 

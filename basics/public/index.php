@@ -1,17 +1,16 @@
 <?php
-if (!isset($_POST['firstname'])) {
-    include __DIR__ . "/../templates/form.html.php";
+try {
+  include __DIR__ . '/../includes/autoload.php';
 
-} else {
-    $firstName = $_POST['firstname'];
-    $lastName = $_POST['lastname'];
-    if ($firstName == "Kevin" && $lastName == "Yank") {
-        $output = "Welcome , oh glorious leader !";
-    } else {
-        $output = "Welcome to out website " .
-        htmlspecialchars($firstName, ENT_QUOTES, "UTF-8") . " " .
-        htmlspecialchars($lastName, ENT_QUOTES, "UTF-8") . "  !";
+  $route = ltrim(strtok($_SERVER['REQUEST_URI'], '?'), '/');
 
-    }
-    include __DIR__ . "/../templates/welcome.html.php";
+  $entryPoint = new \Ninja\EntryPoint($route, $_SERVER['REQUEST_METHOD'], new \Ijdb\IjdbRoutes());
+  $entryPoint->run();
+} catch (PDOException $e) {
+  $title = 'An error has occurred';
+
+  $output = 'Database error: ' . $e->getMessage() . ' in ' .
+  $e->getFile() . ':' . $e->getLine();
+
+  include __DIR__ . '/../templates/layout.html.php';
 }
