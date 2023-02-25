@@ -44,3 +44,12 @@ because extra data must be transferred with each page view. Cookies can also be 
 the computer they’re stored on, so cookies are only as secure as the computer being used to view the website.
 
 an attack commonly known as session fixation. All the hacker needs to steal someone else’s session is the session ID.
+
+
+there are three methods of connecting to a MYSQL from php 
+1-the MYSQL Library (introduced in php 2 ) 
+2-the MYSQLI (I mean improved) Library (introduced in php 5 ) 
+3-the PDO Library (php data object) (introduced in php 5.1 ) 
+mysql_connect() and mysql_query() and these mysql_* non existent functions
+related to MYSQL Library, and they're deprecated 
+same as  mysqli_* related to mysqli Library 
