@@ -9,271 +9,203 @@
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	5.9.0	/096dc1c1/
-*	final-code/public/jokes.css	/^ * {$/;"	s
-.categories	final-code/public/jokes.css	/^ .categories {$/;"	c
-.categories a	final-code/public/jokes.css	/^ .categories a {$/;"	s
-.categories li	final-code/public/jokes.css	/^ .categories li {$/;"	s
-.currentpage:after	final-code/public/jokes.css	/^ .currentpage:after {$/;"	c
-.currentpage:before	final-code/public/jokes.css	/^ .currentpage:before {$/;"	c
-.errors	final-code/public/jokes.css	/^ .errors {$/;"	c
-.errors ul	final-code/public/jokes.css	/^ .errors ul {$/;"	s
-.jokelist	final-code/public/jokes.css	/^ .jokelist {$/;"	c
-.jokelist .jokes	final-code/public/jokes.css	/^ .jokelist .jokes {$/;"	c
-0	databases/nodemon.json	/^  "ignore": [".git", ".idea"],$/;"	s	array:ignore
-1	databases/nodemon.json	/^  "ignore": [".git", ".idea"],$/;"	s	array:ignore
-ADD_CATEGORIES	final-code/classes/Ijdb/Entity/Author.php	/^  const ADD_CATEGORIES    = 4;$/;"	d	class:Ijdb\\Entity\\Author
-Authentication	final-code/classes/Ijdb/Controllers/Joke.php	/^use \\Ninja\\Authentication;$/;"	a	namespace:Ijdb\\Controllers	typeref:unknown:\\Ninja\\Authentication
-Authentication	final-code/classes/Ninja/Authentication.php	/^class Authentication {$/;"	c	namespace:Ninja
-Author	final-code/classes/Ijdb/Entity/Author.php	/^class Author {$/;"	c	namespace:Ijdb\\Entity
-Category	final-code/classes/Ijdb/Controllers/Category.php	/^class Category {$/;"	c	namespace:Ijdb\\Controllers
-Category	final-code/classes/Ijdb/Entity/Category.php	/^class Category {$/;"	c	namespace:Ijdb\\Entity
-DELETE_JOKES	final-code/classes/Ijdb/Entity/Author.php	/^  const DELETE_JOKES      = 2;$/;"	d	class:Ijdb\\Entity\\Author
-DatabaseTable	databases/classes/DatabaseTable.class.php	/^class DatabaseTable$/;"	c
-DatabaseTable	final-code/classes/Ijdb/Controllers/Joke.php	/^use \\Ninja\\DatabaseTable;$/;"	a	namespace:Ijdb\\Controllers	typeref:unknown:\\Ninja\\DatabaseTable
-DatabaseTable	final-code/classes/Ijdb/Controllers/Register.php	/^use \\Ninja\\DatabaseTable;$/;"	a	namespace:Ijdb\\Controllers	typeref:unknown:\\Ninja\\DatabaseTable
-DatabaseTable	final-code/classes/Ijdb/Entity/Category.php	/^use Ninja\\DatabaseTable;$/;"	a	namespace:Ijdb\\Entity	typeref:unknown:Ninja\\DatabaseTable
-DatabaseTable	final-code/classes/Ninja/DatabaseTable.php	/^class DatabaseTable {$/;"	c	namespace:Ninja
-Document	basics/name.html	/^    <title>Document<\/title>$/;"	j
-EDIT_CATEGORIES	final-code/classes/Ijdb/Entity/Author.php	/^  const EDIT_CATEGORIES   = 8;$/;"	d	class:Ijdb\\Entity\\Author
-EDIT_JOKES	final-code/classes/Ijdb/Entity/Author.php	/^  const EDIT_JOKES        = 1;$/;"	d	class:Ijdb\\Entity\\Author
-EDIT_USER_ACCESS	final-code/classes/Ijdb/Entity/Author.php	/^  const EDIT_USER_ACCESS  = 32;$/;"	d	class:Ijdb\\Entity\\Author
-EntryPoint	final-code/classes/Ninja/EntryPoint.php	/^class EntryPoint {$/;"	c	namespace:Ninja
-Ijdb	final-code/classes/Ijdb/IjdbRoutes.php	/^namespace Ijdb;$/;"	n
-IjdbRoutes	final-code/classes/Ijdb/IjdbRoutes.php	/^class IjdbRoutes implements \\Ninja\\Routes {$/;"	c	namespace:Ijdb
-Ijdb\\Controllers	final-code/classes/Ijdb/Controllers/Category.php	/^namespace Ijdb\\Controllers;$/;"	n
-Ijdb\\Controllers	final-code/classes/Ijdb/Controllers/Joke.php	/^namespace Ijdb\\Controllers;$/;"	n
-Ijdb\\Controllers	final-code/classes/Ijdb/Controllers/Login.php	/^namespace Ijdb\\Controllers;$/;"	n
-Ijdb\\Controllers	final-code/classes/Ijdb/Controllers/Register.php	/^namespace Ijdb\\Controllers;$/;"	n
-Ijdb\\Entity	final-code/classes/Ijdb/Entity/Author.php	/^namespace Ijdb\\Entity;$/;"	n
-Ijdb\\Entity	final-code/classes/Ijdb/Entity/Category.php	/^namespace Ijdb\\Entity;$/;"	n
-Ijdb\\Entity	final-code/classes/Ijdb/Entity/Joke.php	/^namespace Ijdb\\Entity;$/;"	n
-Joke	final-code/classes/Ijdb/Controllers/Joke.php	/^class Joke {$/;"	c	namespace:Ijdb\\Controllers
-Joke	final-code/classes/Ijdb/Entity/Joke.php	/^class Joke {$/;"	c	namespace:Ijdb\\Entity
-JokeController	databases/controllers/JokeController.php	/^class JokeController$/;"	c
-Login	final-code/classes/Ijdb/Controllers/Login.php	/^class Login {$/;"	c	namespace:Ijdb\\Controllers
-Markdown	final-code/classes/Ninja/Markdown.php	/^class Markdown {$/;"	c	namespace:Ninja
-Ninja	final-code/classes/Ninja/Authentication.php	/^namespace Ninja;$/;"	n
-Ninja	final-code/classes/Ninja/DatabaseTable.php	/^namespace Ninja;$/;"	n
-Ninja	final-code/classes/Ninja/EntryPoint.php	/^namespace Ninja;$/;"	n
-Ninja	final-code/classes/Ninja/Markdown.php	/^namespace Ninja;$/;"	n
-Ninja	final-code/classes/Ninja/Routes.php	/^namespace Ninja;$/;"	n
-PHP Novice to Ninja	final-code/README.md	/^# PHP Novice to Ninja$/;"	c
-REMOVE_CATEGORIES	final-code/classes/Ijdb/Entity/Author.php	/^  const REMOVE_CATEGORIES = 16;$/;"	d	class:Ijdb\\Entity\\Author
-Register	final-code/classes/Ijdb/Controllers/Register.php	/^class Register {$/;"	c	namespace:Ijdb\\Controllers
-Routes	final-code/classes/Ninja/Routes.php	/^interface Routes {$/;"	i	namespace:Ninja
-__construct	databases/classes/DatabaseTable.class.php	/^  public function __construct(PDO $pdo, string $table, string $primaryKey)$/;"	f	class:DatabaseTable
-__construct	databases/controllers/JokeController.php	/^  public function __construct(DatabaseTable $jokesTable, DatabaseTable $authorsTable)$/;"	f	class:JokeController
-__construct	final-code/classes/Ijdb/Controllers/Category.php	/^  public function __construct(\\Ninja\\DatabaseTable $categoriesTable) {$/;"	f	class:Ijdb\\Controllers\\Category
-__construct	final-code/classes/Ijdb/Controllers/Joke.php	/^  public function __construct(DatabaseTable $jokesTable, DatabaseTable $authorsTable, DatabaseTa/;"	f	class:Ijdb\\Controllers\\Joke
-__construct	final-code/classes/Ijdb/Controllers/Login.php	/^  public function __construct(\\Ninja\\Authentication $authentication) {$/;"	f	class:Ijdb\\Controllers\\Login
-__construct	final-code/classes/Ijdb/Controllers/Register.php	/^  public function __construct(DatabaseTable $authorsTable) {$/;"	f	class:Ijdb\\Controllers\\Register
-__construct	final-code/classes/Ijdb/Entity/Author.php	/^  public function __construct(\\Ninja\\DatabaseTable $jokeTable) {$/;"	f	class:Ijdb\\Entity\\Author
-__construct	final-code/classes/Ijdb/Entity/Category.php	/^  public function __construct(DatabaseTable $jokesTable, DatabaseTable $jokeCategoriesTable) {$/;"	f	class:Ijdb\\Entity\\Category
-__construct	final-code/classes/Ijdb/Entity/Joke.php	/^  public function __construct(\\Ninja\\DatabaseTable $authorsTable, \\Ninja\\DatabaseTable $joke/;"	f	class:Ijdb\\Entity\\Joke
-__construct	final-code/classes/Ijdb/IjdbRoutes.php	/^  public function __construct() {$/;"	f	class:Ijdb\\IjdbRoutes
-__construct	final-code/classes/Ninja/Authentication.php	/^  public function __construct(DatabaseTable $users, $usernameColumn, $passwordColumn) {$/;"	f	class:Ninja\\Authentication
-__construct	final-code/classes/Ninja/DatabaseTable.php	/^  public function __construct(\\PDO $pdo, string $table, string $primaryKey, string $className =/;"	f	class:Ninja\\DatabaseTable
-__construct	final-code/classes/Ninja/EntryPoint.php	/^  public function __construct(string $route, string $method, \\Ninja\\Routes $routes) {$/;"	f	class:Ninja\\EntryPoint
-__construct	final-code/classes/Ninja/Markdown.php	/^  public function __construct($markDown) {$/;"	f	class:Ninja\\Markdown
-action	databases/index.php	/^  $action = $_GET['action'] ?? 'home';$/;"	v
-addCategory	final-code/classes/Ijdb/Entity/Joke.php	/^  public function addCategory($categoryId) {$/;"	f	class:Ijdb\\Entity\\Joke
-addJoke	final-code/classes/Ijdb/Entity/Author.php	/^  public function addJoke($joke) {$/;"	f	class:Ijdb\\Entity\\Author
-addToEndOfAnArray	basics/index.php	/^$addToEndOfAnArray = ['1', 2, 'three'];$/;"	v
-authentication	final-code/classes/Ijdb/Controllers/Joke.php	/^  private $authentication;$/;"	v	class:Ijdb\\Controllers\\Joke
-authentication	final-code/classes/Ijdb/Controllers/Login.php	/^  private $authentication;$/;"	v	class:Ijdb\\Controllers\\Login
-authentication	final-code/classes/Ijdb/IjdbRoutes.php	/^  private $authentication;$/;"	v	class:Ijdb\\IjdbRoutes
-author	final-code/classes/Ijdb/Entity/Joke.php	/^  private $author;$/;"	v	class:Ijdb\\Entity\\Joke
-authorId	final-code/classes/Ijdb/Entity/Joke.php	/^  public $authorId;$/;"	v	class:Ijdb\\Entity\\Joke
-authorsTable	databases/controllers/JokeController.php	/^  private $authorsTable;$/;"	v	class:JokeController
-authorsTable	databases/index.php	/^  $authorsTable = new DatabaseTable($pdo, 'author', 'id');$/;"	v
-authorsTable	final-code/classes/Ijdb/Controllers/Joke.php	/^  private $authorsTable;$/;"	v	class:Ijdb\\Controllers\\Joke
-authorsTable	final-code/classes/Ijdb/Controllers/Register.php	/^  private $authorsTable;$/;"	v	class:Ijdb\\Controllers\\Register
-authorsTable	final-code/classes/Ijdb/Entity/Joke.php	/^  private $authorsTable;$/;"	v	class:Ijdb\\Entity\\Joke
-authorsTable	final-code/classes/Ijdb/IjdbRoutes.php	/^  private $authorsTable;$/;"	v	class:Ijdb\\IjdbRoutes
-autoloader	final-code/includes/autoload.php	/^function autoloader($className) {$/;"	f
-blockquote	final-code/public/jokes.css	/^ blockquote {$/;"	s
-blockquote form	final-code/public/jokes.css	/^ blockquote form {$/;"	s
-blockquote p	final-code/public/jokes.css	/^ blockquote p {$/;"	s
-body	final-code/public/jokes.css	/^ body {$/;"	s
-branch	final-code/public/samples/index.php	/^      $branch = str_replace('origin\/', '', $branch);$/;"	v
-branch	final-code/public/samples/index.php	/^      $branch = str_replace('remotes\/', '', $branch);$/;"	v
-branch	final-code/public/samples/index.php	/^      $branch = trim($branch, " \\t*");$/;"	v
-branchList	final-code/public/samples/index.php	/^    $branchList = [];$/;"	v
-branchName	final-code/public/samples/index.php	/^    $branchName = $_GET['branch'];$/;"	v
-branchName	final-code/public/samples/index.php	/^    $branchName = str_replace('On branch ', '', $output[0]);$/;"	v
-branchName	final-code/public/samples/index.php	/^  $branchName = str_replace('On branch ', '', $output[0]);$/;"	v
-categoriesTable	final-code/classes/Ijdb/Controllers/Category.php	/^  private $categoriesTable;$/;"	v	class:Ijdb\\Controllers\\Category
-categoriesTable	final-code/classes/Ijdb/Controllers/Joke.php	/^  private $categoriesTable;$/;"	v	class:Ijdb\\Controllers\\Joke
-categoriesTable	final-code/classes/Ijdb/IjdbRoutes.php	/^  private $categoriesTable;$/;"	v	class:Ijdb\\IjdbRoutes
-checkPermission	final-code/classes/Ijdb/IjdbRoutes.php	/^  public function checkPermission($permission): bool {$/;"	f	class:Ijdb\\IjdbRoutes	typeref:unknown:bool
-checkPermission	final-code/classes/Ninja/Routes.php	/^  public function checkPermission($permission): bool;$/;"	f	interface:Ninja\\Routes	typeref:unknown:bool
-checkUrl	final-code/classes/Ninja/EntryPoint.php	/^  private function checkUrl() {$/;"	f	class:Ninja\\EntryPoint
-class	final-code/public/samples/index.php	/^      $class = $branch == $branchName ? 'current' : '';$/;"	v
-className	databases/index.php	/^    $className = ucfirst($controllerName) . 'Controller';$/;"	v
-className	final-code/classes/Ninja/DatabaseTable.php	/^  private $className;$/;"	v	class:Ninja\\DatabaseTable
-clearCategories	final-code/classes/Ijdb/Entity/Joke.php	/^  public function clearCategories() {$/;"	f	class:Ijdb\\Entity\\Joke
-code	final-code/public/samples/index.php	/^      $code = file_get_contents('..\/' . $file->getFileName());$/;"	v
-constructorArgs	final-code/classes/Ninja/DatabaseTable.php	/^  private $constructorArgs;$/;"	v	class:Ninja\\DatabaseTable
-controller	databases/index.php	/^    $controller = new $className($jokesTable, $authorsTable);$/;"	v
-controllerName	databases/index.php	/^  $controllerName = $_GET['controller'] ?? 'joke';$/;"	v
-count	basics/templates.php	/^for ($count = 1; $count <= 10; $count++) {$/;"	v
-counter	basics/index.php	/^$counter = 0;$/;"	v
-date	final-code/templates/jokes.html.php	/^  $date = new DateTime($joke->jokedate);$/;"	v
-delete	databases/classes/DatabaseTable.class.php	/^  public function delete($id)$/;"	f	class:DatabaseTable
-delete	final-code/classes/Ijdb/Controllers/Category.php	/^  public function delete() {$/;"	f	class:Ijdb\\Controllers\\Category
-delete	final-code/classes/Ijdb/Controllers/Joke.php	/^  public function delete() {$/;"	f	class:Ijdb\\Controllers\\Joke
-delete	final-code/classes/Ninja/DatabaseTable.php	/^  public function delete($id) {$/;"	f	class:Ninja\\DatabaseTable
-deleteWhere	final-code/classes/Ninja/DatabaseTable.php	/^  public function deleteWhere($column, $value) {$/;"	f	class:Ninja\\DatabaseTable
-edit	final-code/classes/Ijdb/Controllers/Category.php	/^  public function edit() {$/;"	f	class:Ijdb\\Controllers\\Category
-edit	final-code/classes/Ijdb/Controllers/Joke.php	/^  public function edit() {$/;"	f	class:Ijdb\\Controllers\\Joke
-email	final-code/classes/Ijdb/Entity/Author.php	/^  public $email;$/;"	v	class:Ijdb\\Entity\\Author
-entryPoint	final-code/public/index.php	/^  $entryPoint = new \\Ninja\\EntryPoint($route, $_SERVER['REQUEST_METHOD'], new \\Ijdb\\IjdbRout/;"	v
-error	final-code/classes/Ijdb/Controllers/Login.php	/^  public function error() {$/;"	f	class:Ijdb\\Controllers\\Login
-execMap	databases/nodemon.json	/^  "execMap": {$/;"	o
-ext	databases/nodemon.json	/^  "ext": "php"$/;"	s
-find	final-code/classes/Ninja/DatabaseTable.php	/^  public function find($column, $value, $orderBy = null, $limit = null, $offset = null) {$/;"	f	class:Ninja\\DatabaseTable
-findAll	databases/classes/DatabaseTable.class.php	/^  public function findAll()$/;"	f	class:DatabaseTable
-findAll	final-code/classes/Ninja/DatabaseTable.php	/^  public function findAll($orderBy = null, $limit = null, $offset = null) {$/;"	f	class:Ninja\\DatabaseTable
-findById	databases/classes/DatabaseTable.class.php	/^  public function findById($value)$/;"	f	class:DatabaseTable
-findById	databases/find-joke.php	/^function findById($pdo, $table, $primaryKey, $value)$/;"	f
-findById	final-code/classes/Ninja/DatabaseTable.php	/^  public function findById($value) {$/;"	f	class:Ninja\\DatabaseTable
-firstName	basics/public/index.php	/^    $firstName = $_POST['firstname'];$/;"	v
-firstname	basics/name.html	/^      <input type="text" name="firstname" id="firstname" \/>$/;"	I
-footer	final-code/public/jokes.css	/^ footer {$/;"	s
-form	final-code/public/jokes.css	/^ form {$/;"	s
-form p	final-code/public/jokes.css	/^ form p {$/;"	s
-getAuthentication	final-code/classes/Ijdb/IjdbRoutes.php	/^  public function getAuthentication(): \\Ninja\\Authentication {$/;"	f	class:Ijdb\\IjdbRoutes	typeref:unknown:\\Ninja\\Authentication
-getAuthentication	final-code/classes/Ninja/Routes.php	/^  public function getAuthentication(): \\Ninja\\Authentication;$/;"	f	interface:Ninja\\Routes	typeref:unknown:\\Ninja\\Authentication
-getAuthor	final-code/classes/Ijdb/Entity/Joke.php	/^  public function getAuthor() {$/;"	f	class:Ijdb\\Entity\\Joke
-getJokes	final-code/classes/Ijdb/Entity/Author.php	/^  public function getJokes() {$/;"	f	class:Ijdb\\Entity\\Author
-getJokes	final-code/classes/Ijdb/Entity/Category.php	/^  public function getJokes($limit = null, $offset = null) {$/;"	f	class:Ijdb\\Entity\\Category
-getNumJokes	final-code/classes/Ijdb/Entity/Category.php	/^  public function getNumJokes() {$/;"	f	class:Ijdb\\Entity\\Category
-getRoutes	final-code/classes/Ijdb/IjdbRoutes.php	/^  public function getRoutes(): array{$/;"	f	class:Ijdb\\IjdbRoutes	typeref:unknown:array
-getRoutes	final-code/classes/Ninja/Routes.php	/^  public function getRoutes(): array;$/;"	f	interface:Ninja\\Routes	typeref:unknown:array
-getUser	final-code/classes/Ninja/Authentication.php	/^  public function getUser() {$/;"	f	class:Ninja\\Authentication
-h1	final-code/public/jokes.css	/^ h1 {$/;"	s
-hasCategory	final-code/classes/Ijdb/Entity/Joke.php	/^  public function hasCategory($categoryId) {$/;"	f	class:Ijdb\\Entity\\Joke
-hasPermission	final-code/classes/Ijdb/Entity/Author.php	/^  public function hasPermission($permission) {$/;"	f	class:Ijdb\\Entity\\Author
-header	final-code/public/jokes.css	/^ header {$/;"	s
-home	databases/controllers/JokeController.php	/^  public function home()$/;"	f	class:JokeController
-home	final-code/classes/Ijdb/Controllers/Joke.php	/^  public function home() {$/;"	f	class:Ijdb\\Controllers\\Joke
-i	final-code/templates/jokes.html.php	/^  for ($i = 1; $i <= $numPages; $i++):$/;"	v
-id	final-code/classes/Ijdb/Entity/Author.php	/^  public $id;$/;"	v	class:Ijdb\\Entity\\Author	typeref:unknown:12481632
-id	final-code/classes/Ijdb/Entity/Category.php	/^  public $id;$/;"	v	class:Ijdb\\Entity\\Category
-id	final-code/classes/Ijdb/Entity/Joke.php	/^  public $id;$/;"	v	class:Ijdb\\Entity\\Joke
-ignore	databases/nodemon.json	/^  "ignore": [".git", ".idea"],$/;"	a
-input	final-code/public/jokes.css	/^ input,$/;"	s
-input[type="checkbox"]	final-code/public/jokes.css	/^ input[type="checkbox"] {$/;"	s
-input[type="checkbox"] +label	final-code/public/jokes.css	/^ input[type="checkbox"]+label {$/;"	s
-input[type="submit"]	final-code/public/jokes.css	/^ input[type="submit"] {$/;"	s
-insert	databases/classes/DatabaseTable.class.php	/^  private function insert($fields)$/;"	f	class:DatabaseTable
-insert	final-code/classes/Ninja/DatabaseTable.php	/^  private function insert($fields) {$/;"	f	class:Ninja\\DatabaseTable
-isLoggedIn	final-code/classes/Ninja/Authentication.php	/^  public function isLoggedIn() {$/;"	f	class:Ninja\\Authentication
-jokeCategoriesTable	final-code/classes/Ijdb/Entity/Category.php	/^  private $jokeCategoriesTable;$/;"	v	class:Ijdb\\Entity\\Category
-jokeCategoriesTable	final-code/classes/Ijdb/Entity/Joke.php	/^  private $jokeCategoriesTable;$/;"	v	class:Ijdb\\Entity\\Joke
-jokeCategoriesTable	final-code/classes/Ijdb/IjdbRoutes.php	/^  private $jokeCategoriesTable;$/;"	v	class:Ijdb\\IjdbRoutes
-jokedate	final-code/classes/Ijdb/Entity/Joke.php	/^  public $jokedate;$/;"	v	class:Ijdb\\Entity\\Joke
-jokesTable	databases/controllers/JokeController.php	/^  private $jokesTable;$/;"	v	class:JokeController
-jokesTable	databases/index.php	/^  $jokesTable = new DatabaseTable($pdo, 'joke', 'id');$/;"	v
-jokesTable	final-code/classes/Ijdb/Controllers/Joke.php	/^  private $jokesTable;$/;"	v	class:Ijdb\\Controllers\\Joke
-jokesTable	final-code/classes/Ijdb/Entity/Author.php	/^  private $jokesTable;$/;"	v	class:Ijdb\\Entity\\Author
-jokesTable	final-code/classes/Ijdb/Entity/Category.php	/^  private $jokesTable;$/;"	v	class:Ijdb\\Entity\\Category
-jokesTable	final-code/classes/Ijdb/IjdbRoutes.php	/^  private $jokesTable;$/;"	v	class:Ijdb\\IjdbRoutes
-joketext	final-code/classes/Ijdb/Entity/Joke.php	/^  public $joketext;$/;"	v	class:Ijdb\\Entity\\Joke
-label	final-code/public/jokes.css	/^ label {$/;"	s
-label	final-code/public/jokes.css	/^ label,$/;"	s
-lastName	basics/name.php	/^$lastName = $_GET['lastname'];$/;"	v
-lastName	basics/public/index.php	/^    $lastName = $_POST['lastname'];$/;"	v
-lastname	basics/name.html	/^      <input type="text" name="lastname" id="lastname" \/>$/;"	I
-list	databases/controllers/JokeController.php	/^  public function list()$/;"	f	class:JokeController
-list	final-code/classes/Ijdb/Controllers/Category.php	/^  public function list() {$/;"	f	class:Ijdb\\Controllers\\Category
-list	final-code/classes/Ijdb/Controllers/Joke.php	/^  public function list() {$/;"	f	class:Ijdb\\Controllers\\Joke
-list	final-code/classes/Ijdb/Controllers/Register.php	/^  public function list() {$/;"	f	class:Ijdb\\Controllers\\Register
-loadTemplate	databases/index.php	/^function loadTemplate($templateFileName, $variables = [])$/;"	f
-loadTemplate	final-code/classes/Ninja/EntryPoint.php	/^  private function loadTemplate($templateFileName, $variables = []) {$/;"	f	class:Ninja\\EntryPoint
-login	final-code/classes/Ninja/Authentication.php	/^  public function login($username, $password) {$/;"	f	class:Ninja\\Authentication
-loginForm	final-code/classes/Ijdb/Controllers/Login.php	/^  public function loginForm() {$/;"	f	class:Ijdb\\Controllers\\Login
-logout	final-code/classes/Ijdb/Controllers/Login.php	/^  public function logout() {$/;"	f	class:Ijdb\\Controllers\\Login
-main	final-code/public/jokes.css	/^ main {$/;"	s
-method	final-code/classes/Ninja/EntryPoint.php	/^  private $method;$/;"	v	class:Ninja\\EntryPoint
-name	basics/name.php	/^$name = $_GET['firstname'];$/;"	v
-name	final-code/classes/Ijdb/Entity/Author.php	/^  public $name;$/;"	v	class:Ijdb\\Entity\\Author
-name	final-code/classes/Ijdb/Entity/Category.php	/^  public $name;$/;"	v	class:Ijdb\\Entity\\Category
-nav	final-code/public/jokes.css	/^ nav {$/;"	s
-nav a	final-code/public/jokes.css	/^ nav a {$/;"	s
-nav a:hover	final-code/public/jokes.css	/^ nav a:hover {$/;"	s
-nav li	final-code/public/jokes.css	/^ nav li {$/;"	s
-nav ul	final-code/public/jokes.css	/^ nav ul {$/;"	s
-newBranchName	final-code/public/samples/index.php	/^      $newBranchName = $parts[0] . '_Modified-' . date('Y-m-d-H.i.s');$/;"	v
-numPages	final-code/templates/jokes.html.php	/^  $numPages = ceil($totalJokes \/ 10);$/;"	v
-output	basics/public/index.php	/^        $output = "Welcome , oh glorious leader !";$/;"	v
-output	basics/public/index.php	/^        $output = "Welcome to out website " .$/;"	v
-output	basics/templates.php	/^$output = "";$/;"	v
-output	databases/add-joke.php	/^    $output = 'Database error: ' . $e->getMessage() . ' in ' . $e->getFile() . ':' . $e->getLine/;"	v
-output	databases/add-joke.php	/^    $output = 'joke added ';$/;"	v
-output	databases/add-joke.php	/^  $output = ob_get_clean();$/;"	v
-output	databases/delete-joke.php	/^  $output = 'Database error: ' . $e->getMessage() . ' in ' . $e->getFile() . ':' . $e->getLine()/;"	v
-output	databases/index.php	/^    $output = loadTemplate($/;"	v
-output	databases/index.php	/^    $output = loadTemplate($page['template']);$/;"	v
-output	databases/index.php	/^  $output = "unable to connect to database " . $e->getMessage() . "error occured in: " . $e->get/;"	v
-output	final-code/public/index.php	/^  $output = 'Database error: ' . $e->getMessage() . ' in ' .$/;"	v
-p	final-code/public/jokes.css	/^ p {$/;"	s
-page	databases/index.php	/^    $page = $controller->$action();$/;"	v
-parts	final-code/public/samples/index.php	/^      $parts         = explode('_Modified', $branchName);$/;"	v
-password	final-code/classes/Ijdb/Entity/Author.php	/^  public $password;$/;"	v	class:Ijdb\\Entity\\Author
-passwordColumn	final-code/classes/Ninja/Authentication.php	/^  private $passwordColumn;$/;"	v	class:Ninja\\Authentication
-pdo	databases/classes/DatabaseTable.class.php	/^  private $pdo;$/;"	v	class:DatabaseTable
-pdo	databases/init.php	/^$pdo = new PDO("mysql:host=localhost;dbname=jokes;charset=utf8", "root", "");$/;"	v
-pdo	final-code/classes/Ninja/DatabaseTable.php	/^  private $pdo;$/;"	v	class:Ninja\\DatabaseTable
-pdo	final-code/includes/DatabaseConnection.php	/^$pdo = new PDO('mysql:host=localhost;dbname=ijdb_sample;charset=utf8', 'ijdb_sample', 'mypasswor/;"	v
-pdo	final-code/public/samples/index.php	/^    $pdo = new PDO('mysql:host=localhost;charset=utf8', 'homestead', 'secret');$/;"	v
-permissions	final-code/classes/Ijdb/Controllers/Register.php	/^  public function permissions() {$/;"	f	class:Ijdb\\Controllers\\Register
-permissionsError	final-code/classes/Ijdb/Controllers/Login.php	/^  public function permissionsError() {$/;"	f	class:Ijdb\\Controllers\\Login
-php	databases/nodemon.json	/^    "php": "php"$/;"	s	object:execMap
-primaryKey	databases/classes/DatabaseTable.class.php	/^  private $primaryKey;$/;"	v	class:DatabaseTable
-primaryKey	final-code/classes/Ninja/DatabaseTable.php	/^  private $primaryKey;$/;"	v	class:Ninja\\DatabaseTable
-processDates	databases/classes/DatabaseTable.class.php	/^  private function processDates($fields)$/;"	f	class:DatabaseTable
-processDates	final-code/classes/Ninja/DatabaseTable.php	/^  private function processDates($fields) {$/;"	f	class:Ninja\\DatabaseTable
-processLogin	final-code/classes/Ijdb/Controllers/Login.php	/^  public function processLogin() {$/;"	f	class:Ijdb\\Controllers\\Login
-query	databases/classes/DatabaseTable.class.php	/^  private function query($pdo, $sql, $parameters = [])$/;"	f	class:DatabaseTable
-query	final-code/classes/Ninja/DatabaseTable.php	/^  private function query($sql, $parameters = []) {$/;"	f	class:Ninja\\DatabaseTable
-registerUser	final-code/classes/Ijdb/Controllers/Register.php	/^  public function registerUser() {$/;"	f	class:Ijdb\\Controllers\\Register
-registrationForm	final-code/classes/Ijdb/Controllers/Register.php	/^  public function registrationForm() {$/;"	f	class:Ijdb\\Controllers\\Register
-restartable	databases/nodemon.json	/^  "restartable": "r",$/;"	s
-roll	basics/index.php	/^    $roll = rand(1, 6);$/;"	v
-route	final-code/classes/Ninja/EntryPoint.php	/^  private $route;$/;"	v	class:Ninja\\EntryPoint
-route	final-code/public/index.php	/^  $route = ltrim(strtok($_SERVER['REQUEST_URI'], '?'), '\/');$/;"	v
-routes	final-code/classes/Ninja/EntryPoint.php	/^  private $routes;$/;"	v	class:Ninja\\EntryPoint
-run	final-code/classes/Ninja/EntryPoint.php	/^  public function run() {$/;"	f	class:Ninja\\EntryPoint
-save	databases/classes/DatabaseTable.class.php	/^  public function save($record)$/;"	f	class:DatabaseTable
-save	final-code/classes/Ninja/DatabaseTable.php	/^  public function save($record) {$/;"	f	class:Ninja\\DatabaseTable
-saveEdit	final-code/classes/Ijdb/Controllers/Category.php	/^  public function saveEdit() {$/;"	f	class:Ijdb\\Controllers\\Category
-saveEdit	final-code/classes/Ijdb/Controllers/Joke.php	/^  public function saveEdit() {$/;"	f	class:Ijdb\\Controllers\\Joke
-savePermissions	final-code/classes/Ijdb/Controllers/Register.php	/^  public function savePermissions() {$/;"	f	class:Ijdb\\Controllers\\Register
-select	final-code/public/jokes.css	/^ select,$/;"	s
-sortJokes	final-code/classes/Ijdb/Entity/Category.php	/^  private function sortJokes($a, $b) {$/;"	f	class:Ijdb\\Entity\\Category
-sql	databases/add-joke.php	/^    $sql = 'INSERT INTO `joke` SET$/;"	v
-sql	databases/delete-joke.php	/^  $sql  = 'DELETE FROM `joke` WHERE `id` = :id';$/;"	v
-status	final-code/public/samples/index.php	/^    $status = implode("\\n", $status);$/;"	v
-stmt	databases/add-joke.php	/^    $stmt = $pdo->prepare($sql);$/;"	v
-stmt	databases/delete-joke.php	/^  $stmt = $pdo->prepare($sql);$/;"	v
-string	final-code/classes/Ninja/Markdown.php	/^  private $string;$/;"	v	class:Ninja\\Markdown
-success	final-code/classes/Ijdb/Controllers/Login.php	/^  public function success() {$/;"	f	class:Ijdb\\Controllers\\Login
-success	final-code/classes/Ijdb/Controllers/Register.php	/^  public function success() {$/;"	f	class:Ijdb\\Controllers\\Register
-table	databases/classes/DatabaseTable.class.php	/^  private  $table;$/;"	v	class:DatabaseTable
-table	final-code/classes/Ninja/DatabaseTable.php	/^  private $table;$/;"	v	class:Ninja\\DatabaseTable
-textarea	final-code/public/jokes.css	/^ textarea {$/;"	s
-title	databases/add-joke.php	/^    $title  = 'An error has occurred';$/;"	v
-title	databases/add-joke.php	/^  $title = 'Add a new joke';$/;"	v
-title	databases/delete-joke.php	/^  $title  = 'An error has occurred';$/;"	v
-title	databases/index.php	/^  $title = $page['title'];$/;"	v
-title	final-code/public/index.php	/^  $title = 'An error has occurred';$/;"	v
-toHtml	final-code/classes/Ninja/Markdown.php	/^  public function toHtml() {$/;"	f	class:Ninja\\Markdown
-total	databases/classes/DatabaseTable.class.php	/^  public function total()$/;"	f	class:DatabaseTable
-total	final-code/classes/Ninja/DatabaseTable.php	/^  public function total($field = null, $value = null) {$/;"	f	class:Ninja\\DatabaseTable
-update	databases/classes/DatabaseTable.class.php	/^  private function update($fields)$/;"	f	class:DatabaseTable
-update	final-code/classes/Ninja/DatabaseTable.php	/^  private function update($fields) {$/;"	f	class:Ninja\\DatabaseTable
-updateJoke	databases/update-joke.php	/^function updateJoke($pdo, $fields)$/;"	f
-usernameColumn	final-code/classes/Ninja/Authentication.php	/^  private $usernameColumn;$/;"	v	class:Ninja\\Authentication
-users	final-code/classes/Ninja/Authentication.php	/^  private $users;$/;"	v	class:Ninja\\Authentication
-verbose	databases/nodemon.json	/^  "verbose": false,$/;"	b
+*	basics/public/jokes.css	/^ * {$/;"	s
+.categories	basics/public/jokes.css	/^ .categories {$/;"	c
+.categories a	basics/public/jokes.css	/^ .categories a {$/;"	s
+.categories li	basics/public/jokes.css	/^ .categories li {$/;"	s
+.currentpage:after	basics/public/jokes.css	/^ .currentpage:after {$/;"	c
+.currentpage:before	basics/public/jokes.css	/^ .currentpage:before {$/;"	c
+.errors	basics/public/jokes.css	/^ .errors {$/;"	c
+.errors ul	basics/public/jokes.css	/^ .errors ul {$/;"	s
+.jokelist	basics/public/jokes.css	/^ .jokelist {$/;"	c
+.jokelist .jokes	basics/public/jokes.css	/^ .jokelist .jokes {$/;"	c
+ADD_CATEGORIES	basics/classes/Ijdb/Entity/Author.php	/^  const ADD_CATEGORIES    = 4;$/;"	d	class:Ijdb\\Entity\\Author
+Authentication	basics/classes/Ijdb/Controllers/Joke.php	/^use \\Ninja\\Authentication;$/;"	a	namespace:Ijdb\\Controllers	typeref:unknown:\\Ninja\\Authentication
+Authentication	basics/classes/Ninja/Authentication.php	/^class Authentication {$/;"	c	namespace:Ninja
+Author	basics/classes/Ijdb/Entity/Author.php	/^class Author {$/;"	c	namespace:Ijdb\\Entity
+Category	basics/classes/Ijdb/Controllers/Category.php	/^class Category {$/;"	c	namespace:Ijdb\\Controllers
+Category	basics/classes/Ijdb/Entity/Category.php	/^class Category {$/;"	c	namespace:Ijdb\\Entity
+DELETE_JOKES	basics/classes/Ijdb/Entity/Author.php	/^  const DELETE_JOKES      = 2;$/;"	d	class:Ijdb\\Entity\\Author
+DatabaseTable	basics/classes/Ijdb/Controllers/Joke.php	/^use \\Ninja\\DatabaseTable;$/;"	a	namespace:Ijdb\\Controllers	typeref:unknown:\\Ninja\\DatabaseTable
+DatabaseTable	basics/classes/Ijdb/Controllers/Register.php	/^use \\Ninja\\DatabaseTable;$/;"	a	namespace:Ijdb\\Controllers	typeref:unknown:\\Ninja\\DatabaseTable
+DatabaseTable	basics/classes/Ijdb/Entity/Category.php	/^use Ninja\\DatabaseTable;$/;"	a	namespace:Ijdb\\Entity	typeref:unknown:Ninja\\DatabaseTable
+DatabaseTable	basics/classes/Ninja/DatabaseTable.php	/^class DatabaseTable {$/;"	c	namespace:Ninja
+EDIT_CATEGORIES	basics/classes/Ijdb/Entity/Author.php	/^  const EDIT_CATEGORIES   = 8;$/;"	d	class:Ijdb\\Entity\\Author
+EDIT_JOKES	basics/classes/Ijdb/Entity/Author.php	/^  const EDIT_JOKES        = 1;$/;"	d	class:Ijdb\\Entity\\Author
+EDIT_USER_ACCESS	basics/classes/Ijdb/Entity/Author.php	/^  const EDIT_USER_ACCESS  = 32;$/;"	d	class:Ijdb\\Entity\\Author
+EntryPoint	basics/classes/Ninja/EntryPoint.php	/^class EntryPoint {$/;"	c	namespace:Ninja
+Ijdb	basics/classes/Ijdb/IjdbRoutes.php	/^namespace Ijdb;$/;"	n
+IjdbRoutes	basics/classes/Ijdb/IjdbRoutes.php	/^class IjdbRoutes implements \\Ninja\\Routes {$/;"	c	namespace:Ijdb
+Ijdb\\Controllers	basics/classes/Ijdb/Controllers/Category.php	/^namespace Ijdb\\Controllers;$/;"	n
+Ijdb\\Controllers	basics/classes/Ijdb/Controllers/Joke.php	/^namespace Ijdb\\Controllers;$/;"	n
+Ijdb\\Controllers	basics/classes/Ijdb/Controllers/Login.php	/^namespace Ijdb\\Controllers;$/;"	n
+Ijdb\\Controllers	basics/classes/Ijdb/Controllers/Register.php	/^namespace Ijdb\\Controllers;$/;"	n
+Ijdb\\Entity	basics/classes/Ijdb/Entity/Author.php	/^namespace Ijdb\\Entity;$/;"	n
+Ijdb\\Entity	basics/classes/Ijdb/Entity/Category.php	/^namespace Ijdb\\Entity;$/;"	n
+Ijdb\\Entity	basics/classes/Ijdb/Entity/Joke.php	/^namespace Ijdb\\Entity;$/;"	n
+Joke	basics/classes/Ijdb/Controllers/Joke.php	/^class Joke {$/;"	c	namespace:Ijdb\\Controllers
+Joke	basics/classes/Ijdb/Entity/Joke.php	/^class Joke {$/;"	c	namespace:Ijdb\\Entity
+Login	basics/classes/Ijdb/Controllers/Login.php	/^class Login {$/;"	c	namespace:Ijdb\\Controllers
+Markdown	basics/classes/Ninja/Markdown.php	/^class Markdown {$/;"	c	namespace:Ninja
+Ninja	basics/classes/Ninja/Authentication.php	/^namespace Ninja;$/;"	n
+Ninja	basics/classes/Ninja/DatabaseTable.php	/^namespace Ninja;$/;"	n
+Ninja	basics/classes/Ninja/EntryPoint.php	/^namespace Ninja;$/;"	n
+Ninja	basics/classes/Ninja/Markdown.php	/^namespace Ninja;$/;"	n
+Ninja	basics/classes/Ninja/Routes.php	/^namespace Ninja;$/;"	n
+PHP Novice to Ninja	basics/README.md	/^# PHP Novice to Ninja$/;"	c
+REMOVE_CATEGORIES	basics/classes/Ijdb/Entity/Author.php	/^  const REMOVE_CATEGORIES = 16;$/;"	d	class:Ijdb\\Entity\\Author
+Register	basics/classes/Ijdb/Controllers/Register.php	/^class Register {$/;"	c	namespace:Ijdb\\Controllers
+Routes	basics/classes/Ninja/Routes.php	/^interface Routes {$/;"	i	namespace:Ninja
+__construct	basics/classes/Ijdb/Controllers/Category.php	/^  public function __construct(\\Ninja\\DatabaseTable $categoriesTable) {$/;"	f	class:Ijdb\\Controllers\\Category
+__construct	basics/classes/Ijdb/Controllers/Joke.php	/^  public function __construct(DatabaseTable $jokesTable, DatabaseTable $authorsTable, DatabaseTa/;"	f	class:Ijdb\\Controllers\\Joke
+__construct	basics/classes/Ijdb/Controllers/Login.php	/^  public function __construct(\\Ninja\\Authentication $authentication) {$/;"	f	class:Ijdb\\Controllers\\Login
+__construct	basics/classes/Ijdb/Controllers/Register.php	/^  public function __construct(DatabaseTable $authorsTable) {$/;"	f	class:Ijdb\\Controllers\\Register
+__construct	basics/classes/Ijdb/Entity/Author.php	/^  public function __construct(\\Ninja\\DatabaseTable $jokeTable) {$/;"	f	class:Ijdb\\Entity\\Author
+__construct	basics/classes/Ijdb/Entity/Category.php	/^  public function __construct(DatabaseTable $jokesTable, DatabaseTable $jokeCategoriesTable) {$/;"	f	class:Ijdb\\Entity\\Category
+__construct	basics/classes/Ijdb/Entity/Joke.php	/^  public function __construct(\\Ninja\\DatabaseTable $authorsTable, \\Ninja\\DatabaseTable $joke/;"	f	class:Ijdb\\Entity\\Joke
+__construct	basics/classes/Ijdb/IjdbRoutes.php	/^  public function __construct() {$/;"	f	class:Ijdb\\IjdbRoutes
+__construct	basics/classes/Ninja/Authentication.php	/^  public function __construct(DatabaseTable $users, $usernameColumn, $passwordColumn) {$/;"	f	class:Ninja\\Authentication
+__construct	basics/classes/Ninja/DatabaseTable.php	/^  public function __construct(\\PDO $pdo, string $table, string $primaryKey, string $className =/;"	f	class:Ninja\\DatabaseTable
+__construct	basics/classes/Ninja/EntryPoint.php	/^  public function __construct(string $route, string $method, \\Ninja\\Routes $routes) {$/;"	f	class:Ninja\\EntryPoint
+__construct	basics/classes/Ninja/Markdown.php	/^  public function __construct($markDown) {$/;"	f	class:Ninja\\Markdown
+addCategory	basics/classes/Ijdb/Entity/Joke.php	/^  public function addCategory($categoryId) {$/;"	f	class:Ijdb\\Entity\\Joke
+addJoke	basics/classes/Ijdb/Entity/Author.php	/^  public function addJoke($joke) {$/;"	f	class:Ijdb\\Entity\\Author
+authentication	basics/classes/Ijdb/Controllers/Joke.php	/^  private $authentication;$/;"	v	class:Ijdb\\Controllers\\Joke
+authentication	basics/classes/Ijdb/Controllers/Login.php	/^  private $authentication;$/;"	v	class:Ijdb\\Controllers\\Login
+authentication	basics/classes/Ijdb/IjdbRoutes.php	/^  private $authentication;$/;"	v	class:Ijdb\\IjdbRoutes
+author	basics/classes/Ijdb/Entity/Joke.php	/^  private $author;$/;"	v	class:Ijdb\\Entity\\Joke
+authorId	basics/classes/Ijdb/Entity/Joke.php	/^  public $authorId;$/;"	v	class:Ijdb\\Entity\\Joke
+authorsTable	basics/classes/Ijdb/Controllers/Joke.php	/^  private $authorsTable;$/;"	v	class:Ijdb\\Controllers\\Joke
+authorsTable	basics/classes/Ijdb/Controllers/Register.php	/^  private $authorsTable;$/;"	v	class:Ijdb\\Controllers\\Register
+authorsTable	basics/classes/Ijdb/Entity/Joke.php	/^  private $authorsTable;$/;"	v	class:Ijdb\\Entity\\Joke
+authorsTable	basics/classes/Ijdb/IjdbRoutes.php	/^  private $authorsTable;$/;"	v	class:Ijdb\\IjdbRoutes
+autoloader	basics/includes/autoload.php	/^function autoloader($className) {$/;"	f
+blockquote	basics/public/jokes.css	/^ blockquote {$/;"	s
+blockquote form	basics/public/jokes.css	/^ blockquote form {$/;"	s
+blockquote p	basics/public/jokes.css	/^ blockquote p {$/;"	s
+body	basics/public/jokes.css	/^ body {$/;"	s
+branch	basics/public/samples/index.php	/^      $branch              = str_replace('origin\/', '', $branch);$/;"	v
+branch	basics/public/samples/index.php	/^      $branch              = str_replace('remotes\/', '', $branch);$/;"	v
+branch	basics/public/samples/index.php	/^      $branch              = trim($branch, " \\t*");$/;"	v
+branchList	basics/public/samples/index.php	/^    $branchList = [];$/;"	v
+branchName	basics/public/samples/index.php	/^    $branchName = $_GET['branch'];$/;"	v
+branchName	basics/public/samples/index.php	/^    $branchName = str_replace('On branch ', '', $output[0]);$/;"	v
+branchName	basics/public/samples/index.php	/^  $branchName = str_replace('On branch ', '', $output[0]);$/;"	v
+categoriesTable	basics/classes/Ijdb/Controllers/Category.php	/^  private $categoriesTable;$/;"	v	class:Ijdb\\Controllers\\Category
+categoriesTable	basics/classes/Ijdb/Controllers/Joke.php	/^  private $categoriesTable;$/;"	v	class:Ijdb\\Controllers\\Joke
+categoriesTable	basics/classes/Ijdb/IjdbRoutes.php	/^  private $categoriesTable;$/;"	v	class:Ijdb\\IjdbRoutes
+checkPermission	basics/classes/Ijdb/IjdbRoutes.php	/^  public function checkPermission($permission): bool {$/;"	f	class:Ijdb\\IjdbRoutes	typeref:unknown:bool
+checkPermission	basics/classes/Ninja/Routes.php	/^  public function checkPermission($permission): bool;$/;"	f	interface:Ninja\\Routes	typeref:unknown:bool
+checkUrl	basics/classes/Ninja/EntryPoint.php	/^  private function checkUrl() {$/;"	f	class:Ninja\\EntryPoint
+class	basics/public/samples/index.php	/^      $class = $branch == $branchName ? 'current' : '';$/;"	v
+className	basics/classes/Ninja/DatabaseTable.php	/^  private $className;$/;"	v	class:Ninja\\DatabaseTable
+clearCategories	basics/classes/Ijdb/Entity/Joke.php	/^  public function clearCategories() {$/;"	f	class:Ijdb\\Entity\\Joke
+code	basics/public/samples/index.php	/^      $code = file_get_contents('..\/' . $file->getFileName());$/;"	v
+constructorArgs	basics/classes/Ninja/DatabaseTable.php	/^  private $constructorArgs;$/;"	v	class:Ninja\\DatabaseTable
+date	basics/templates/jokes.html.php	/^  $date = new DateTime($joke->jokedate);$/;"	v
+delete	basics/classes/Ijdb/Controllers/Category.php	/^  public function delete() {$/;"	f	class:Ijdb\\Controllers\\Category
+delete	basics/classes/Ijdb/Controllers/Joke.php	/^  public function delete() {$/;"	f	class:Ijdb\\Controllers\\Joke
+delete	basics/classes/Ninja/DatabaseTable.php	/^  public function delete($id) {$/;"	f	class:Ninja\\DatabaseTable
+deleteWhere	basics/classes/Ninja/DatabaseTable.php	/^  public function deleteWhere($column, $value) {$/;"	f	class:Ninja\\DatabaseTable
+edit	basics/classes/Ijdb/Controllers/Category.php	/^  public function edit() {$/;"	f	class:Ijdb\\Controllers\\Category
+edit	basics/classes/Ijdb/Controllers/Joke.php	/^  public function edit() {$/;"	f	class:Ijdb\\Controllers\\Joke
+email	basics/classes/Ijdb/Entity/Author.php	/^  public $email;$/;"	v	class:Ijdb\\Entity\\Author
+entryPoint	basics/public/index.php	/^  $entryPoint = new \\Ninja\\EntryPoint($route, $_SERVER['REQUEST_METHOD'], new \\Ijdb\\IjdbRout/;"	v
+error	basics/classes/Ijdb/Controllers/Login.php	/^  public function error() {$/;"	f	class:Ijdb\\Controllers\\Login
+find	basics/classes/Ninja/DatabaseTable.php	/^  public function find($column, $value, $orderBy = null, $limit = null, $offset = null) {$/;"	f	class:Ninja\\DatabaseTable
+findAll	basics/classes/Ninja/DatabaseTable.php	/^  public function findAll($orderBy = null, $limit = null, $offset = null) {$/;"	f	class:Ninja\\DatabaseTable
+findById	basics/classes/Ninja/DatabaseTable.php	/^  public function findById($value) {$/;"	f	class:Ninja\\DatabaseTable
+footer	basics/public/jokes.css	/^ footer {$/;"	s
+form	basics/public/jokes.css	/^ form {$/;"	s
+form p	basics/public/jokes.css	/^ form p {$/;"	s
+getAuthentication	basics/classes/Ijdb/IjdbRoutes.php	/^  public function getAuthentication(): \\Ninja\\Authentication {$/;"	f	class:Ijdb\\IjdbRoutes	typeref:unknown:\\Ninja\\Authentication
+getAuthentication	basics/classes/Ninja/Routes.php	/^  public function getAuthentication(): \\Ninja\\Authentication;$/;"	f	interface:Ninja\\Routes	typeref:unknown:\\Ninja\\Authentication
+getAuthor	basics/classes/Ijdb/Entity/Joke.php	/^  public function getAuthor() {$/;"	f	class:Ijdb\\Entity\\Joke
+getJokes	basics/classes/Ijdb/Entity/Author.php	/^  public function getJokes() {$/;"	f	class:Ijdb\\Entity\\Author
+getJokes	basics/classes/Ijdb/Entity/Category.php	/^  public function getJokes($limit = null, $offset = null) {$/;"	f	class:Ijdb\\Entity\\Category
+getNumJokes	basics/classes/Ijdb/Entity/Category.php	/^  public function getNumJokes() {$/;"	f	class:Ijdb\\Entity\\Category
+getRoutes	basics/classes/Ijdb/IjdbRoutes.php	/^  public function getRoutes(): array{$/;"	f	class:Ijdb\\IjdbRoutes	typeref:unknown:array
+getRoutes	basics/classes/Ninja/Routes.php	/^  public function getRoutes(): array;$/;"	f	interface:Ninja\\Routes	typeref:unknown:array
+getUser	basics/classes/Ninja/Authentication.php	/^  public function getUser() {$/;"	f	class:Ninja\\Authentication
+h1	basics/public/jokes.css	/^ h1 {$/;"	s
+hasCategory	basics/classes/Ijdb/Entity/Joke.php	/^  public function hasCategory($categoryId) {$/;"	f	class:Ijdb\\Entity\\Joke
+hasPermission	basics/classes/Ijdb/Entity/Author.php	/^  public function hasPermission($permission) {$/;"	f	class:Ijdb\\Entity\\Author
+header	basics/public/jokes.css	/^ header {$/;"	s
+home	basics/classes/Ijdb/Controllers/Joke.php	/^  public function home() {$/;"	f	class:Ijdb\\Controllers\\Joke
+i	basics/templates/jokes.html.php	/^  for ($i = 1; $i <= $numPages; $i++):$/;"	v
+id	basics/classes/Ijdb/Entity/Author.php	/^  public $id;$/;"	v	class:Ijdb\\Entity\\Author	typeref:unknown:12481632
+id	basics/classes/Ijdb/Entity/Category.php	/^  public $id;$/;"	v	class:Ijdb\\Entity\\Category
+id	basics/classes/Ijdb/Entity/Joke.php	/^  public $id;$/;"	v	class:Ijdb\\Entity\\Joke
+input	basics/public/jokes.css	/^ input,$/;"	s
+input[type="checkbox"]	basics/public/jokes.css	/^ input[type="checkbox"] {$/;"	s
+input[type="checkbox"] +label	basics/public/jokes.css	/^ input[type="checkbox"]+label {$/;"	s
+input[type="submit"]	basics/public/jokes.css	/^ input[type="submit"] {$/;"	s
+insert	basics/classes/Ninja/DatabaseTable.php	/^  private function insert($fields) {$/;"	f	class:Ninja\\DatabaseTable
+isLoggedIn	basics/classes/Ninja/Authentication.php	/^  public function isLoggedIn() {$/;"	f	class:Ninja\\Authentication
+jokeCategoriesTable	basics/classes/Ijdb/Entity/Category.php	/^  private $jokeCategoriesTable;$/;"	v	class:Ijdb\\Entity\\Category
+jokeCategoriesTable	basics/classes/Ijdb/Entity/Joke.php	/^  private $jokeCategoriesTable;$/;"	v	class:Ijdb\\Entity\\Joke
+jokeCategoriesTable	basics/classes/Ijdb/IjdbRoutes.php	/^  private $jokeCategoriesTable;$/;"	v	class:Ijdb\\IjdbRoutes
+jokedate	basics/classes/Ijdb/Entity/Joke.php	/^  public $jokedate;$/;"	v	class:Ijdb\\Entity\\Joke
+jokesTable	basics/classes/Ijdb/Controllers/Joke.php	/^  private $jokesTable;$/;"	v	class:Ijdb\\Controllers\\Joke
+jokesTable	basics/classes/Ijdb/Entity/Author.php	/^  private $jokesTable;$/;"	v	class:Ijdb\\Entity\\Author
+jokesTable	basics/classes/Ijdb/Entity/Category.php	/^  private $jokesTable;$/;"	v	class:Ijdb\\Entity\\Category
+jokesTable	basics/classes/Ijdb/IjdbRoutes.php	/^  private $jokesTable;$/;"	v	class:Ijdb\\IjdbRoutes
+joketext	basics/classes/Ijdb/Entity/Joke.php	/^  public $joketext;$/;"	v	class:Ijdb\\Entity\\Joke
+label	basics/public/jokes.css	/^ label {$/;"	s
+label	basics/public/jokes.css	/^ label,$/;"	s
+list	basics/classes/Ijdb/Controllers/Category.php	/^  public function list() {$/;"	f	class:Ijdb\\Controllers\\Category
+list	basics/classes/Ijdb/Controllers/Joke.php	/^  public function list() {$/;"	f	class:Ijdb\\Controllers\\Joke
+list	basics/classes/Ijdb/Controllers/Register.php	/^  public function list() {$/;"	f	class:Ijdb\\Controllers\\Register
+loadTemplate	basics/classes/Ninja/EntryPoint.php	/^  private function loadTemplate($templateFileName, $variables = []) {$/;"	f	class:Ninja\\EntryPoint
+login	basics/classes/Ninja/Authentication.php	/^  public function login($username, $password) {$/;"	f	class:Ninja\\Authentication
+loginForm	basics/classes/Ijdb/Controllers/Login.php	/^  public function loginForm() {$/;"	f	class:Ijdb\\Controllers\\Login
+logout	basics/classes/Ijdb/Controllers/Login.php	/^  public function logout() {$/;"	f	class:Ijdb\\Controllers\\Login
+main	basics/public/jokes.css	/^ main {$/;"	s
+method	basics/classes/Ninja/EntryPoint.php	/^  private $method;$/;"	v	class:Ninja\\EntryPoint
+name	basics/classes/Ijdb/Entity/Author.php	/^  public $name;$/;"	v	class:Ijdb\\Entity\\Author
+name	basics/classes/Ijdb/Entity/Category.php	/^  public $name;$/;"	v	class:Ijdb\\Entity\\Category
+nav	basics/public/jokes.css	/^ nav {$/;"	s
+nav a	basics/public/jokes.css	/^ nav a {$/;"	s
+nav a:hover	basics/public/jokes.css	/^ nav a:hover {$/;"	s
+nav li	basics/public/jokes.css	/^ nav li {$/;"	s
+nav ul	basics/public/jokes.css	/^ nav ul {$/;"	s
+newBranchName	basics/public/samples/index.php	/^      $newBranchName = $parts[0] . '_Modified-' . date('Y-m-d-H.i.s');$/;"	v
+numPages	basics/templates/jokes.html.php	/^  $numPages = ceil($totalJokes \/ 10);$/;"	v
+output	basics/public/index.php	/^  $output = 'Database error: ' . $e->getMessage() . ' in ' .$/;"	v
+p	basics/public/jokes.css	/^ p {$/;"	s
+parts	basics/public/samples/index.php	/^      $parts         = explode('_Modified', $branchName);$/;"	v
+password	basics/classes/Ijdb/Entity/Author.php	/^  public $password;$/;"	v	class:Ijdb\\Entity\\Author
+passwordColumn	basics/classes/Ninja/Authentication.php	/^  private $passwordColumn;$/;"	v	class:Ninja\\Authentication
+pdo	basics/classes/Ninja/DatabaseTable.php	/^  private $pdo;$/;"	v	class:Ninja\\DatabaseTable
+pdo	basics/includes/DatabaseConnection.php	/^$pdo = new PDO('mysql:host=localhost;dbname=ijdb_sample;charset=utf8', 'ijdb_sample', 'mypasswor/;"	v
+pdo	basics/public/samples/index.php	/^    $pdo = new PDO('mysql:host=localhost;charset=utf8', 'homestead', 'secret');$/;"	v
+permissions	basics/classes/Ijdb/Controllers/Register.php	/^  public function permissions() {$/;"	f	class:Ijdb\\Controllers\\Register
+permissionsError	basics/classes/Ijdb/Controllers/Login.php	/^  public function permissionsError() {$/;"	f	class:Ijdb\\Controllers\\Login
+primaryKey	basics/classes/Ninja/DatabaseTable.php	/^  private $primaryKey;$/;"	v	class:Ninja\\DatabaseTable
+processDates	basics/classes/Ninja/DatabaseTable.php	/^  private function processDates($fields) {$/;"	f	class:Ninja\\DatabaseTable
+processLogin	basics/classes/Ijdb/Controllers/Login.php	/^  public function processLogin() {$/;"	f	class:Ijdb\\Controllers\\Login
+query	basics/classes/Ninja/DatabaseTable.php	/^  private function query($sql, $parameters = []) {$/;"	f	class:Ninja\\DatabaseTable
+registerUser	basics/classes/Ijdb/Controllers/Register.php	/^  public function registerUser() {$/;"	f	class:Ijdb\\Controllers\\Register
+registrationForm	basics/classes/Ijdb/Controllers/Register.php	/^  public function registrationForm() {$/;"	f	class:Ijdb\\Controllers\\Register
+route	basics/classes/Ninja/EntryPoint.php	/^  private $route;$/;"	v	class:Ninja\\EntryPoint
+route	basics/public/index.php	/^  $route = ltrim(strtok($_SERVER['REQUEST_URI'], '?'), '\/');$/;"	v
+routes	basics/classes/Ninja/EntryPoint.php	/^  private $routes;$/;"	v	class:Ninja\\EntryPoint
+run	basics/classes/Ninja/EntryPoint.php	/^  public function run() {$/;"	f	class:Ninja\\EntryPoint
+save	basics/classes/Ninja/DatabaseTable.php	/^  public function save($record) {$/;"	f	class:Ninja\\DatabaseTable
+saveEdit	basics/classes/Ijdb/Controllers/Category.php	/^  public function saveEdit() {$/;"	f	class:Ijdb\\Controllers\\Category
+saveEdit	basics/classes/Ijdb/Controllers/Joke.php	/^  public function saveEdit() {$/;"	f	class:Ijdb\\Controllers\\Joke
+savePermissions	basics/classes/Ijdb/Controllers/Register.php	/^  public function savePermissions() {$/;"	f	class:Ijdb\\Controllers\\Register
+select	basics/public/jokes.css	/^ select,$/;"	s
+sortJokes	basics/classes/Ijdb/Entity/Category.php	/^  private function sortJokes($a, $b) {$/;"	f	class:Ijdb\\Entity\\Category
+status	basics/public/samples/index.php	/^    $status = implode("\\n", $status);$/;"	v
+string	basics/classes/Ninja/Markdown.php	/^  private $string;$/;"	v	class:Ninja\\Markdown
+success	basics/classes/Ijdb/Controllers/Login.php	/^  public function success() {$/;"	f	class:Ijdb\\Controllers\\Login
+success	basics/classes/Ijdb/Controllers/Register.php	/^  public function success() {$/;"	f	class:Ijdb\\Controllers\\Register
+table	basics/classes/Ninja/DatabaseTable.php	/^  private $table;$/;"	v	class:Ninja\\DatabaseTable
+textarea	basics/public/jokes.css	/^ textarea {$/;"	s
+title	basics/public/index.php	/^  $title = 'An error has occurred';$/;"	v
+toHtml	basics/classes/Ninja/Markdown.php	/^  public function toHtml() {$/;"	f	class:Ninja\\Markdown
+total	basics/classes/Ninja/DatabaseTable.php	/^  public function total($field = null, $value = null) {$/;"	f	class:Ninja\\DatabaseTable
+update	basics/classes/Ninja/DatabaseTable.php	/^  private function update($fields) {$/;"	f	class:Ninja\\DatabaseTable
+usernameColumn	basics/classes/Ninja/Authentication.php	/^  private $usernameColumn;$/;"	v	class:Ninja\\Authentication
+users	basics/classes/Ninja/Authentication.php	/^  private $users;$/;"	v	class:Ninja\\Authentication

@@ -33,3 +33,14 @@ class in the global namespace, we must prefix it with a backslash
    }
 }
 this inside composer to resolve these namespaces correctly 
+
+using cookies, we have to be aware that browsers place a limit on the number and size of cookies allowed per website.
+Some browsers will start deleting old cookies to make room for new ones after we’ve set 20 cookies from our site. 
+Other browsers will allow up to 50 cookies per site, but will reject new cookies beyond this limit. Browsers 
+also enforce a maximum combined size for all cookies from all websites, so an especially cookie-heavy site might 
+cause our own site’s cookies to be deleted. Each time someone visits our website, all of the cookies are sent to
+the web server. If we store a lot of information in the cookie, it can slow down the responsiveness of the website, 
+because extra data must be transferred with each page view. Cookies can also be read by anyone who gains access to 
+the computer they’re stored on, so cookies are only as secure as the computer being used to view the website.
+
+an attack commonly known as session fixation. All the hacker needs to steal someone else’s session is the session ID.
